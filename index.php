@@ -52,7 +52,10 @@
                     <h3>Contact Me: </h3>
                     <ul>
                         <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank"> Hoàng Tùng</a></li> <br/>
-                        <li>..</li>
+                        <li>Ánh Tuyết</li> <br/>
+                        <li>Minh Phát</li> <br/>
+                        <li>Như Ý</li> <br/>
+                        <li>Trọng Hậu</li> <br/>
                     </ul>
                 </li>
             </ul>

@@ -19,7 +19,6 @@
         <ul>
             <li><a href="index.php#footer" class="active">Members</a></li>
             <li><a href="https://github.com/TrHgTung/php_app_deploy" target="_blank">GitHub</a></li>
-            <li><a href="./components/newFeature.php">Feature</a></li>
             <li><a href="./components/getApi.php">API</a></li>
         </ul>
 

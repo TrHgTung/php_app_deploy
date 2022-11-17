@@ -47,12 +47,6 @@
                     <h3>Contact Me: </h3>
                     <ul>
                         <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank"> Hoàng Tùng</a></li> <br/>
-
-                        <li>Ánh Tuyết</li> <br/>
-                        <li>Minh Phát</li> <br/>
-                        <li>Như Ý</li> <br/>
-                        <li>Trọng Hậu</li> <br/>
-
                         <li>Facebook: <a href="#" target="_blank"> Như Ý</a></li> <br/>
                         <li>Facebook: <a href="#" target="_blank"> Ánh Tuyết</a></li> <br/>
                         <li>Facebook: <a href="#" target="_blank"> Minh Phát</a></li> <br/>

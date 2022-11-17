@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const PokemonContainer = document.getElementById("pokemon__containerID");
 const SearchContainer = document.getElementById("search__containerID");
 const SearchElement = document.getElementById("searchBox");
@@ -96,14 +95,6 @@ const createSearchFilter = (pokemonData) => {
     });
 };
 
-/* https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${PokemonID}.png -- asset mới
-=======
-const PokemonContainer = document.getElementById("pokemon__containerID");
-const SearchContainer = document.getElementById("search__containerID");
-const SearchElement = document.getElementById("searchBox");
-
-const PokemonNumber = 100; /* 493 upto gen4 */
-
 const createPokemonCard = (pokemon) => {
     const PokemonElement = document.createElement("div");
     const PokemonName = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
@@ -194,7 +185,3 @@ const createSearchFilter = (pokemonData) => {
         });
     });
 };
-
-/* https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${PokemonID}.png -- asset mới
->>>>>>> c2096d6a001a3fe3ce62feab4673934a4ea8a288
-https://pokeres.bastionbot.org/images/pokemon/${PokemonID}.png -- cũ */

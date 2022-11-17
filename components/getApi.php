@@ -11,10 +11,10 @@
     <title>Poké-Dex</title>
     <script src="./getApi.js" defer></script>
     <link rel="stylesheet" type="text/css" href="../css/getApi.css" >
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../images/icon.png">
 </head>
 <body>
-    <!-- FOR LOGGED IN USERS // LOGGED IN SESSION -->
+    <!-- no fucking session here -->
     <header>
         <a href="#" class="logo">API</a>
         <ul>
@@ -22,8 +22,8 @@
         </ul>
     </header>
     <section>
-        <img src="images/stars.png" alt="" id="stars">
-        <img src="images/mountains_behind.png" alt="" id="mountains_behind">
+        <img src="../images/stars.png" alt="" id="stars">
+        <img src="../images/mountains_behind.png" alt="" id="mountains_behind">
         <center>
             <div class="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -32,7 +32,7 @@
             </div>
             
         </center>
-        <img src="images/mountains_front.png" alt="" id="mountains_front">
+        <img src="../images/mountains_front.png" alt="" id="mountains_front">
     </section>
     
     <footer class="footer">

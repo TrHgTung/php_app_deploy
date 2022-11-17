@@ -1,7 +1,7 @@
 const PokemonContainer = document.getElementById("pokemon__containerID");
 const SearchContainer = document.getElementById("search__containerID");
 const SearchElement = document.getElementById("searchBox");
-const PokemonNumber = 493; /* 493 upto gen4 */
+const PokemonNumber = 100;
 
 const createPokemonCard = (pokemon) => {
   const PokemonElement = document.createElement("div");
@@ -37,8 +37,6 @@ const createPokemonCard = (pokemon) => {
   function checkNum() {
     if (PokemonName < 10) {
       let text = "0";
-
-      //const PokemonNameUnderTen = "0" + PokemonName;
       const PokemonNameUnderTen = text.concat(PokemonName);
       return PokemonNameUnderTen;
 
@@ -54,7 +52,7 @@ const createPokemonCard = (pokemon) => {
   PokemonElement.style.backgroundColor = AddColors;
   const PokemonInnerHTML = `
     <div class="pokemon__imageContainer" id="${PokemonName}">
-      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${PokemonID}.png" />
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/0${PokemonID}.png" />
     </div>
     <div class="pokemon__infomationContainer">
       <span class="pokemon__id">#${PokemonID.toString().padStart(3, "0")}</span>

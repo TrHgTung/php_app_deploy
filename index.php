@@ -17,27 +17,21 @@
         <a href="https://topdev.vn/blog/devops-la-gi/" class="logo" target="_blank">what's devops?</a>
         <ul>
             <li><a href="index.php#footer" class="active">Members</a></li>
-            <li><a href="https://www.github.com/TrHgTung" target="_blank">GitHub</a></li>
+            <li><a href="https://github.com/TrHgTung/php_app_deploy" target="_blank">GitHub</a></li>
+            <li><a href="./components/getApi.php">API</a></li>
         </ul>
-        <!-- <script>
-            function scrollDown(){
-                window.scroll({
-                top: document.footer.scrollHeight,
-                behavior: 'smooth'
-                });
-            }
-        </script> -->
-    </header>
-    <section>
-        <img src="images/stars.png" alt="" id="stars">
-        <img src="images/mountains_behind.png" alt="" id="mountains_behind">
-        <h2 id="text">Welcome</h2>
-        
-        <a href="components/cat.php" id="btn">to DevOps</a> 
-        <!-- con meo nhay -->
-        <img src="images/mountains_front.png" alt="" id="mountains_front">        
 
-    </section>
+    </header>
+        <section>
+            <img src="images/stars.png" alt="" id="stars">
+            <img src="images/mountains_behind.png" alt="" id="mountains_behind">
+            <h2 id="text">Welcome</h2>
+            
+            <a href="components/cat.php" id="btn">to DevOps</a> 
+            <!-- con meo nhay -->
+            <img src="images/mountains_front.png" alt="" id="mountains_front">        
+
+        </section>
     <footer class="footer">
         <div class="grid footer__container">
         <div class="grid footer__container">
@@ -52,10 +46,17 @@
                     <h3>Contact Me: </h3>
                     <ul>
                         <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank"> Hoàng Tùng</a></li> <br/>
+<<<<<<< HEAD
                         <li>Ánh Tuyết</li> <br/>
                         <li>Minh Phát</li> <br/>
                         <li>Như Ý</li> <br/>
                         <li>Trọng Hậu</li> <br/>
+=======
+                        <li>Facebook: <a href="#" target="_blank"> Như Ý</a></li> <br/>
+                        <li>Facebook: <a href="#" target="_blank"> Ánh Tuyết</a></li> <br/>
+                        <li>Facebook: <a href="#" target="_blank"> Minh Phát</a></li> <br/>
+                        <li>Facebook: <a href="#" target="_blank"> Trọng Hậu</a></li> <br/>
+>>>>>>> ad95e22 (commit)
                     </ul>
                 </li>
             </ul>

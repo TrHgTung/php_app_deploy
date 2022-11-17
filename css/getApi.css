@@ -18,46 +18,6 @@
 
 }
 
-
-@keyframes mountains_front {
-    0% {
-        opacity: 0;
-        top: 20px
-    }
-
-    100% {
-        opacity: 1;
-        top: 0px
-    }
-}
-
-
-
-@keyframes atext {
-    0% {
-        opacity: 0;
-    }
-
-    80% {
-        opacity: 0.5;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes acontent {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-
 * {
     margin: 0;
     padding: 0;
@@ -137,7 +97,6 @@ section img {
 
 section img#mountains_fronts {
     z-index: 10;
-
 }
 
 
@@ -270,21 +229,13 @@ center {
 }
 
 section img#mountains_front {
-
     position: absolute;
-    animation-name: mountains_front;
-    animation-duration: 0.5s;
-
 }
 
 section img#mountains_behind {
-
-    /* changed at 19:58 04-Aug-2022 (L) */
     position: absolute;
     animation-name: mountains_behind;
-    animation-duration: 1s;
-
-    /* changed at 19:58 04-Aug-2022 (U) */
+    animation-duration: 1.5s;
 }
 
 #text {
@@ -293,22 +244,13 @@ section img#mountains_behind {
     white-space: nowrap;
     font-size: 3.5vw;
     z-index: 9;
-    animation-name: atext;
-    animation-duration: 1s;
-
 }
 
 ul li,
 a,
-script#des {
-    animation-name: atext;
-    animation-duration: 1s;
-}
+script#des {}
 
-form {
-    animation-name: atext;
-    animation-duration: 1s;
-}
+form {}
 
 center>form>p {
     position: absolute;

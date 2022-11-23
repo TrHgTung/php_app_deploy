@@ -19,7 +19,8 @@
         <ul>
             <li><a href="index.php#footer" class="active">Members</a></li>
             <li><a href="https://github.com/TrHgTung/php_app_deploy" target="_blank">GitHub</a></li>
-            <li><a href="./components/getApi.php">API</a></li>
+            <li><a href="./components/getApi.php">Mẫu API</a></li>
+            <li><a href="./components/weatherApi.php">Xem Thời Tiết</a></li>
         </ul>
 
     </header>

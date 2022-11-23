@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
 @keyframes mountains_behind {
@@ -265,17 +264,6 @@ center>div>p {
     position: absolute;
     color: white;
     size: 2em;
-}
-
-center>form>p>a {
-    position: relative;
-    color: yellow;
-    font-size: 18px;
-}
-
-center>div>p>a {
-    position: relative;
-    color: yellow;
 }
 
 #user_name,

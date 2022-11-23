@@ -38,10 +38,10 @@
     <footer class="footer">
         <h2>Result ..</h2>
         <div class="search__container" id="search__containerID">
-            <!-- ... -->
+            <!-- render form js file -->
         </div>
         <div class="pokemon__container" id="pokemon__containerID">
-             <!-- ... -->
+             <!-- render from js  file -->
         </div>
         
     </footer>
